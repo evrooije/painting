@@ -205,7 +205,7 @@ minetest.register_entity("painting:paintent", {
 		--see player.h line 129
 		local ppos = puncher:getpos()
 
-		ppos.y = ppos.y + 2.625
+		ppos.y = ppos.y + 1.625
 
 		local pos = self.object:getpos()
 		local l = puncher:get_look_dir()
